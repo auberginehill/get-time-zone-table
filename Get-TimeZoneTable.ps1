@@ -393,7 +393,8 @@ https://blogs.technet.microsoft.com/heyscriptingguy/2016/09/16/powertip-use-powe
 <#
 
 .SYNOPSIS
-Generates Time Zone tables to a specified location.
+Generates a Time Zone table with current date and time in each Time Zone and 
+exports it to a HTML- and a CSV-file.
 
 .DESCRIPTION
 Get-TimeZoneTable queries the general Time Zone information list from the Windows 
