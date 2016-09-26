@@ -525,8 +525,8 @@ http://www.eightforums.com/tutorials/23500-temporary-files-folder-change-locatio
 Run the script. Please notice to insert ./ or .\ before the script name.
 Uses the default location ($env:temp) for storing the generated HTML Time Zone Table
 and the adjacent CSV-file to. Outputs the Time Zone Table also in in a pop-up window
-(Out-GridView). The data is sorted by Offset and would be tried to be arranged in an
-ascending order.
+(Out-GridView). The data is sorted by Date (Current), Time (Current) and Time Zone Id 
+in an ascending order.
 
 .EXAMPLE
 help ./Get-TimeZoneTable -Full
