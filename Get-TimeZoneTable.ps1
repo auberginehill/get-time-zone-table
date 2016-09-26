@@ -477,8 +477,8 @@ with the -Sort parameter the prevalent ascending sort order may be reversed by a
 
 .OUTPUTS
 Generates an HTML Time Zone Table and an adjacent CSV-file in a specified Path
-($Path = "$env:temp" at line 12), which is user-settable with the -Path parameter.
-In addition to that...
+($Path = "$env:temp" at line 12), which is user-settable with the -Path parameter. Displays 
+the prevalent time zone in console. In addition to that...
 
 
 One pop-up window "$results_selection" (Out-GridView) with sortable headers (with a click):
