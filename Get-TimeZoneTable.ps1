@@ -422,7 +422,7 @@ parameter, as is shown in the Examples below, since Get-TimeZoneTable is trying 
 decipher the inputted commands as good as it is machinely possible within a 50 KB
 size limit.
 
-The save location path should be valid file system path to a directory (a full path
+The save location path should be a valid file system path to a directory (a full path
 name of a directory (i.e. folder path such as C:\Windows)). In case the path name
 includes space characters, please add quotation marks around the path name. For
 usage, please see the Examples below and for more information about $env:temp,
