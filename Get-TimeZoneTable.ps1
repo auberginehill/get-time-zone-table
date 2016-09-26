@@ -447,9 +447,9 @@ Please also see the Examples section for further usage examples.
     Name                                        Sort by Time Zone Id
     Id                                          Sort by Time Zone Id
     English                                     Sort by Time Zone Id
-    Date (Current)                              Sort by Date (Current)
+    "Date (Current)"                            Sort by Date (Current)
     Date                                        Sort by Date (Current)
-    Time (Current)                              Sort by Time (Current)
+    "Time (Current)"                            Sort by Time (Current)
     Time                                        Sort by Time (Current)
     Offset                                      Sort by Offset
     Display                                     Sort by Offset
