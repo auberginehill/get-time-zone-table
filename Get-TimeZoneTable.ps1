@@ -500,10 +500,6 @@ Please note that all the parameters can be used in one query command and that ea
 of the parameters can be "tab completed" before typing them fully (by pressing
 the [tab] key).
 
-Please note that the sorting probably needs to be further processed, since the
-default output is actually not sorted according to any widely known sort mechanism,
-even though a sort command was given to sort by Offset.
-
 Please also note that the two files are created in a directory, which is end-user
 settable in each command with the -Path parameter. The default save location is
 defined with the $Path variable (at line 12) and the -Path parameter also has an
