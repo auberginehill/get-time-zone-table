@@ -536,8 +536,9 @@ Display the help file.
 ./Get-TimeZoneTable -Path "C:\Scripts"
 
 Run the script and store the two Time Zone Table files to C:\Scripts. The output is
-sorted, as per default, on the Offset property and tried to arrange in an ascending
-order. Since the -Path variable has an alias of -ReportPath, a command
+sorted, as per default, on the properties Date (Current), Time (Current) and Time 
+Zone Id in an ascending order. Since the -Path variable has an alias of -ReportPath, 
+a command
 
     ./Get-TimeZoneTable -ReportPath "C:\Scripts"
 
