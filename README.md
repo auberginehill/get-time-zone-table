@@ -87,7 +87,7 @@
                     <h5>Parameter <code>-Path</code></h5>
                     <p>which has an alias called <code>-ReportPath</code> (so they both act exactly the same way). The <code>-Path</code> parameter specifies where the HTML Time Zone Table and the adjacent CSV-file is to be saved. The default save location is <code>$env:temp</code>, which points to the current temporary file location, which is set in the system. The default <code>-Path</code> save location is defined at line 12 with the <code>$Path</code> variable. If no save location is defined in the command, the files are saved to <code>$env:temp</code>.</p>
                     <p>It's not always mandatory to write <code>-Path</code> in the command to invoke the <code>-Path</code> parameter, as is shown in the Examples below, since Get-TimeZoneTable is trying to decipher the inputted commands as good as it is machinely possible within a 50 KB size limit.</p>
-                    <p>The save location path should be valid file system path to a directory (a full path name of a directory (i.e. folder path such as <code>C:\Windows</code>)). In case the path name includes space characters, please add quotation marks around the path name. For usage, please see the Examples below and for more information about <code>$env:temp</code>, please see the Notes section below.</p>
+                    <p>The save location path should be a valid file system path to a directory (a full path name of a directory (i.e. folder path such as <code>C:\Windows</code>)). In case the path name includes space characters, please add quotation marks around the path name. For usage, please see the Examples below and for more information about <code>$env:temp</code>, please see the Notes section below.</p>
                 </li>
             </ul>
         </td>
@@ -101,7 +101,7 @@
                         <h5>Parameter <code>-Sort</code></h5>
                         <p>Specifies which column is the primary sort column in the HTML Time Zone Table and other outputs. Only one column may be selected in one command as the primary column. If <code>-Sort</code> parameter is not defined, Get-TimeZoneTable will try to sort by Date (Current), Time (Current) and Time Zone Id in an ascending order.</p>
                         <p>In the HTML Time Zone Table and other outputs all the headers are sortable (with the commands) and some headers have aliases, too. Valid <code>-Sort</code> values are listed below. Please also see the Examples section for further usage examples.</p>
-                        <p>In the HTML
+                        <p>
                         <ol>
                             <h4>Valid <code>-Sort</code> values:</h4>
                             <p>
@@ -158,6 +158,10 @@
                                         <td style="padding:6px"><code>UTC</code></td>
                                         <td style="padding:6px">Sort by UTC</td>
                                     </tr>
+                                    <tr>
+                                        <td style="padding:6px"><code>Area</code></td>
+                                        <td style="padding:6px">Sort by Area</td>
+                                    </tr>                                    
                                     <tr>
                                         <td style="padding:6px"><code>"Standard Time (in system language)"</code></td>
                                         <td style="padding:6px">Sort by Standard Time (in system language)</td>
