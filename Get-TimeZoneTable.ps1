@@ -217,7 +217,7 @@ Process {
             'PSParentPath'                              = $zone.PSParentPath
             'Time Zone Id'                              = $zone.PSChildName
             'Date (Current)'                            = ([System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::Now,"$($zone.PSChildName)")).ToShortDateString()
-            'Time (Current)'                            = ([System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::Now,"$($zone.PSChildName)")).ToString("HH:mm tt")
+            'Time (Current)'                            = ([System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::Now,"$($zone.PSChildName)")).ToString("HH:mm")
 
             'UTC'                                       = [regex]::matches($zone.Display, "\w*.\d+.\d+") | Select-Object -ExpandProperty Value
             'Area'                                      = [regex]::replace($zone.Display, $find_this_pattern_and_replace_it_with, "$empty_line")
